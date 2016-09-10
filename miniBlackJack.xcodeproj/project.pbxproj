@@ -12,6 +12,7 @@
 		501243121D84599600CCE282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501243101D84599600CCE282 /* Main.storyboard */; };
 		501243141D84599600CCE282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 501243131D84599600CCE282 /* Assets.xcassets */; };
 		501243171D84599600CCE282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501243151D84599600CCE282 /* LaunchScreen.storyboard */; };
+		5012431F1D84608100CCE282 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5012431E1D84608100CCE282 /* NetworkController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		501243131D84599600CCE282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		501243161D84599600CCE282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		501243181D84599600CCE282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5012431E1D84608100CCE282 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				5012430C1D84599600CCE282 /* AppDelegate.swift */,
 				5012430E1D84599600CCE282 /* ViewController.swift */,
 				501243101D84599600CCE282 /* Main.storyboard */,
+				5012431E1D84608100CCE282 /* NetworkController.swift */,
 				501243131D84599600CCE282 /* Assets.xcassets */,
 				501243151D84599600CCE282 /* LaunchScreen.storyboard */,
 				501243181D84599600CCE282 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				5012430F1D84599600CCE282 /* ViewController.swift in Sources */,
 				5012430D1D84599600CCE282 /* AppDelegate.swift in Sources */,
+				5012431F1D84608100CCE282 /* NetworkController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
