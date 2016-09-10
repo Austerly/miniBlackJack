@@ -23,11 +23,13 @@ class ViewController: UIViewController {
     }
     
     @IBAction func playButtonTapped(sender: AnyObject) {
-        NetworkController.dataAtURL("http://deckofcardsapi.com/api/deck/new/draw/?count=2") { (data) in
-            print("data:", data)
-            guard let data = data else {return}
-            print("NetworkController JSON from Data: ", NetworkController.jsonFromData(data))
-            
+        CardController.drawCards(2) { (cards) in
+            NetworkController.imageForURL(cards[0].imageEndpoint, completion: { (image) in
+                self.leftImageView.image = image
+            })
+            NetworkController.imageForURL(cards[1].imageEndpoint, completion: { (image) in
+                self.rightImageView.image = image
+            })
         }
     }
 
